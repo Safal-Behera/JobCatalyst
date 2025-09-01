@@ -13,7 +13,7 @@ function page(){
 
     useEffect(() => {
       if (!loading && !isAuthenticated) {
-        router.push("https://localhost:8000/login");
+        router.push("https://jobcatalyst-mhgu.onrender.com/login");
       }
     }, [isAuthenticated]);
     return (

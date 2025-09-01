@@ -22,7 +22,7 @@ function page(){
    // Redirect to login if not authenticated
   useEffect(() => {
     if (!loading && !isAuthenticated) {
-      router.push("https://localhost:8000/login");
+      router.push("https://jobcatalyst-mhgu.onrender.com/login");
     }
   }, [isAuthenticated]);
 
