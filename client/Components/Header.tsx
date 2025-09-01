@@ -51,13 +51,13 @@ function Header(){
         </ul>
         <div className="flex items-center gap-4">
             {isAuthenticated ? (<Profile /> ): (<div className="flex items-center gap-6">
-                <Link href={"http://localhost:8000/login"}
+                <Link href={"https://jobcatalyst-mhgu.onrender.com/login"}
                 className="py-2 px-6 rounded-md flex-items-center gap-4 bg-[#7263F3] text-white border-[#7263F3] hover:bg-[#7263F3]/90 trasition-all duration-200 ease-in-out"
                 >
                 <LogIn className="w-4 h-4" />
                 Login</Link>
 
-                <Link href={"http://localhost:8000/login"}
+                <Link href={"https://jobcatalyst-mhgu.onrender.com/login"}
                 className="py-2 px-6 rounded-md flex-items-center gap-4 border border-[#7263F3] text-[#7263F3] hover:bg-[#7263F3]/10 trasition-all duration-200 ease-in-out"
                 >
                 <UserPlus className="w-4 h-4" />
